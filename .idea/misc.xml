@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/11-ApacheCamel-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/10-ApacheCamel-JDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/09-ApacheCamel-Timer/pom.xml" />
+        <option value="$PROJECT_DIR$/08-ApacheCamel-Jetty/pom.xml" />
+        <option value="$PROJECT_DIR$/07-ApacheCamel-JMS-ActiveMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/06-ApacheCamel-JMS-ActiveMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/05-ApacheCamel-CXF-WebService/pom.xml" />
+        <option value="$PROJECT_DIR$/04-ApacheCamel-CXF-WebService/pom.xml" />
+        <option value="$PROJECT_DIR$/03-ApacheCamel-FTP/pom.xml" />
+        <option value="$PROJECT_DIR$/02-ApacheCamelServer/pom.xml" />
+        <option value="$PROJECT_DIR$/01-ApacheCamel-HelloWorld/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" default="true" assert-keyword="true" jdk-15="true" />
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

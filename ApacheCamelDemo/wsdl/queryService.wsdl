@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://server.cxf.camel.com/"
+	xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http"
+	name="CamelCXFServiceImplService" targetNamespace="http://server.cxf.camel.com/">
+	<wsdl:types>
+		<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+			xmlns:tns="http://server.cxf.camel.com/" elementFormDefault="unqualified"
+			targetNamespace="http://server.cxf.camel.com/" version="1.0">
+
+			<xs:element name="queryInfomation" type="tns:queryInfomation" />
+
+			<xs:element name="queryInfomationResponse" type="tns:queryInfomationResponse" />
+
+			<xs:element name="sayHello" type="tns:sayHello" />
+
+			<xs:element name="sayHelloResponse" type="tns:sayHelloResponse" />
+
+			<xs:complexType name="queryInfomation">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="arg0" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+
+			<xs:complexType name="queryInfomationResponse">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="return" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+
+			<xs:complexType name="sayHello">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="arg0" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+
+			<xs:complexType name="sayHelloResponse">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="return" type="xs:string" />
+				</xs:sequence>
+			</xs:complexType>
+
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="sayHelloResponse">
+		<wsdl:part element="tns:sayHelloResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="queryInfomation">
+		<wsdl:part element="tns:queryInfomation" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="queryInfomationResponse">
+		<wsdl:part element="tns:queryInfomationResponse" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:message name="sayHello">
+		<wsdl:part element="tns:sayHello" name="parameters">
+		</wsdl:part>
+	</wsdl:message>
+	<wsdl:portType name="CamelCXFServiceInter">
+		<wsdl:operation name="queryInfomation">
+			<wsdl:input message="tns:queryInfomation" name="queryInfomation">
+			</wsdl:input>
+			<wsdl:output message="tns:queryInfomationResponse" name="queryInfomationResponse">
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="sayHello">
+			<wsdl:input message="tns:sayHello" name="sayHello">
+			</wsdl:input>
+			<wsdl:output message="tns:sayHelloResponse" name="sayHelloResponse">
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="CamelCXFServiceImplServiceSoapBinding"
+		type="tns:CamelCXFServiceInter">
+		<soap:binding style="document"
+			transport="http://schemas.xmlsoap.org/soap/http" />
+		<wsdl:operation name="queryInfomation">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="queryInfomation">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="queryInfomationResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="sayHello">
+			<soap:operation soapAction="" style="document" />
+			<wsdl:input name="sayHello">
+				<soap:body use="literal" />
+			</wsdl:input>
+			<wsdl:output name="sayHelloResponse">
+				<soap:body use="literal" />
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="CamelCXFServiceImplService">
+		<wsdl:port binding="tns:CamelCXFServiceImplServiceSoapBinding"
+			name="CamelCXFServiceImplPort">
+			<soap:address location="http://localhost:8088/CamelCXFService/queryService" />
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
