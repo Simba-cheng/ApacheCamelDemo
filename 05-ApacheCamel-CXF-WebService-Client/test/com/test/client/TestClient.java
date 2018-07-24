@@ -1,9 +1,9 @@
 package com.test.client;
 
-import java.net.URL;
-
 import org.service.query.QueryServiceInter;
 import org.service.query.QueryServiceService;
+
+import java.net.URL;
 
 public class TestClient {
 

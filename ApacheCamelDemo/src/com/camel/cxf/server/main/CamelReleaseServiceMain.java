@@ -1,14 +1,13 @@
 package com.camel.cxf.server.main;
 
+import com.camel.cxf.server.CamelCXFServiceInter;
+import com.camel.cxf.server.Server;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.cxf.CxfComponent;
 import org.apache.camel.component.cxf.CxfEndpoint;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.log4j.PropertyConfigurator;
-
-import com.camel.cxf.server.CamelCXFServiceInter;
-import com.camel.cxf.server.Server;
 
 public class CamelReleaseServiceMain {
 
