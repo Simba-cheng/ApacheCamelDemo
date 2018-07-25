@@ -95,8 +95,8 @@
         <module name="05-ApacheCamel-CXF-WebService" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="01-ApacheCamel-HelloWorld" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="01-ApacheCamel-HelloWorld" target="1.8" />
       <module name="02-ApacheCamelServer" target="1.8" />
       <module name="03-ApacheCamel-FTP" target="1.8" />
       <module name="04-ApacheCamel-CXF-WebService" target="1.8" />
