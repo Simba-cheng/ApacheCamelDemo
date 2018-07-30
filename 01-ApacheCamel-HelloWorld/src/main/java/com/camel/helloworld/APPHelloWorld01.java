@@ -17,7 +17,7 @@ import java.io.InputStream;
 /**
  * 郑重其事的写下 helloworld for Apache Camel
  */
-public class HelloWorld extends RouteBuilder {
+public class APPHelloWorld01 extends RouteBuilder {
 
     /**
      * 为什么我们先启动一个Camel服务 再使用addRoutes添加编排好的路由呢？
@@ -36,12 +36,12 @@ public class HelloWorld extends RouteBuilder {
         // 启动route
         camelContext.start();
         // 将我们编排的一个完整消息路由过程，加入到上下文中
-        camelContext.addRoutes(new HelloWorld());
+        camelContext.addRoutes(new APPHelloWorld01());
 
 
         // 为了保证主线程不退出
-        synchronized (HelloWorld.class) {
-            HelloWorld.class.wait();
+        synchronized (APPHelloWorld01.class) {
+            APPHelloWorld01.class.wait();
         }
     }
 

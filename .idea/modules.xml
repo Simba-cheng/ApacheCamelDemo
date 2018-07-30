@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/09-ApacheCamel-Timer/09-ApacheCamel-Timer.iml" filepath="$PROJECT_DIR$/09-ApacheCamel-Timer/09-ApacheCamel-Timer.iml" />
       <module fileurl="file://$PROJECT_DIR$/10-ApacheCamel-JDBC/10-ApacheCamel-JDBC.iml" filepath="$PROJECT_DIR$/10-ApacheCamel-JDBC/10-ApacheCamel-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/11-ApacheCamel-JDBC/11-ApacheCamel-JDBC.iml" filepath="$PROJECT_DIR$/11-ApacheCamel-JDBC/11-ApacheCamel-JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" filepath="$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Apache Camel Demo.iml" filepath="$PROJECT_DIR$/.idea/Apache Camel Demo.iml" />
     </modules>
   </component>

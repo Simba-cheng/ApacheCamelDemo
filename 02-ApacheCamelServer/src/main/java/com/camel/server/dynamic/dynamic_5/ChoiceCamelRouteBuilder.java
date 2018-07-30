@@ -1,7 +1,5 @@
 package com.camel.server.dynamic.dynamic_5;
 
-import java.io.InputStream;
-
 import org.apache.camel.Exchange;
 import org.apache.camel.ExchangePattern;
 import org.apache.camel.Message;
@@ -10,6 +8,8 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.http.common.HttpMessage;
 import org.apache.camel.model.language.JsonPathExpression;
 import org.apache.commons.io.IOUtils;
+
+import java.io.InputStream;
 
 public class ChoiceCamelRouteBuilder extends RouteBuilder {
 

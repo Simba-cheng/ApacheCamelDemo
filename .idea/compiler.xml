@@ -37,6 +37,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="01-ApacheCamel-HelloWorld" />
+        <module name="12-ApahceCamel-SpringDemo" />
       </profile>
       <profile default="false" name="Annotation profile for 06-ApacheCamel-JMS-ActiveMQ" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -96,7 +97,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="01-ApacheCamel-HelloWorld" target="1.8" />
+      <module name="01-ApacheCamel-HelloWorld" target="1.5" />
       <module name="02-ApacheCamelServer" target="1.8" />
       <module name="03-ApacheCamel-FTP" target="1.8" />
       <module name="04-ApacheCamel-CXF-WebService" target="1.8" />
@@ -107,6 +108,7 @@
       <module name="09-ApacheCamel-Timer" target="1.8" />
       <module name="10-ApacheCamel-JDBC" target="1.8" />
       <module name="11-ApacheCamel-JDBC" target="1.8" />
+      <module name="12-ApahceCamel-SpringDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
