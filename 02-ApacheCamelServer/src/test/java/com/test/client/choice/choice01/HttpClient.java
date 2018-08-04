@@ -1,4 +1,4 @@
-package com.test.client.choicecamel;
+package com.test.client.choice.choice01;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

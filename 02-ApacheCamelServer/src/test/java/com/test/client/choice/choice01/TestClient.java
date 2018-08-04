@@ -1,4 +1,4 @@
-package com.test.client.choicecamel;
+package com.test.client.choice.choice01;
 
 import java.net.HttpURLConnection;
 import java.net.URL;
