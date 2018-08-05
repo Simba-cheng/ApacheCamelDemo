@@ -14,11 +14,9 @@ Camel 各种路由...
 
 学习期间，参考的PDF资料，都上传了，需要的童鞋请自取：<br>
 
-[Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)
-
-[Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)
-
-[Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)
+[Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)<br>
+[Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)<br>
+[Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)<br>
 
 
 后续：<br>
