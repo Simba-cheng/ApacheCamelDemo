@@ -38,6 +38,7 @@
         <processorPath useClasspath="true" />
         <module name="01-ApacheCamel-HelloWorld" />
         <module name="12-ApahceCamel-SpringDemo" />
+        <module name="13-ApahceCamel-CXF-Demo" />
       </profile>
       <profile default="false" name="Annotation profile for 06-ApacheCamel-JMS-ActiveMQ" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -109,6 +110,7 @@
       <module name="10-ApacheCamel-JDBC" target="1.8" />
       <module name="11-ApacheCamel-JDBC" target="1.8" />
       <module name="12-ApahceCamel-SpringDemo" target="1.7" />
+      <module name="13-ApahceCamel-CXF-Demo" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
