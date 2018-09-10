@@ -3,7 +3,7 @@ Apache Camel Demo (学习样例Demo)
 
 国内Apache Camel专栏：https://blog.csdn.net/column/details/19378.html
 
-该项目中包含
+该项目中包含<br>
 Apache Camel - FTP组件<br>
 Apache Camel - CXF组件<br>
 Apache Camel - JMS/ActiveMQ组件<br>
