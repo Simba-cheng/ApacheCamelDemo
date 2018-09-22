@@ -1,6 +1,25 @@
 # ApacheCamelDemo
-Apache Camel Demo (学习样例Demo)
 
+Apache Camel Demo (learning sample Demo)<br>
+
+Included in the project : <br>
+Apache Camel - FTP component<br>
+Apache Camel - CXF component<br>
+Apache Camel - JMS/ActiveMQ components<br>
+Apache Camel - Jetty component<br>
+Apache Camel - Timer component<br>
+Apache Camel - JDBC component<br>
+Apache Camel - Message Routing<br>
+During the study period, the referenced PDF materials were uploaded, and the children's shoes needed should be taken:<br>
+[Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)<br>
+[Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)<br>
+[Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)<br>
+
+
+--------------------萌萌的分割线--------------------
+
+
+Apache Camel Demo (学习样例Demo)
 国内Apache Camel专栏：https://blog.csdn.net/column/details/19378.html
 
 该项目中包含<br>
