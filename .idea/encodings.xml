@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/03-ApacheCamel-FTP" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-ApacheCamel-CXF-WebService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-ApacheCamel-CXF-WebService" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-ApacheCamel-CXF-WebService-Client2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/06-ApacheCamel-JMS-ActiveMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/07-ApacheCamel-JMS-ActiveMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/08-ApacheCamel-Jetty" charset="UTF-8" />

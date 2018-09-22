@@ -2,13 +2,9 @@ package com.camel.webservice.server;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.component.cxf.CxfComponent;
-import org.apache.camel.component.cxf.CxfEndpoint;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
-import org.service.query.QueryServiceInter;
-import org.service.query.server.QueryServiceServer;
 
 public class CamelReleaseServerMain {
 
@@ -18,7 +14,7 @@ public class CamelReleaseServerMain {
 	private static final String ROUTER_ADDRESS = "http://localhost:9080/server/queryservice";
 
 	// Apache Camel 内部发布的WebService URL
-	public static final String SERVICE_ADDRESS = "http://localhost:9010/server/queryservice";
+	//public static final String SERVICE_ADDRESS = "http://localhost:9010/server/queryservice";
 
 	// WebService 接口全类名
 	private static final String SERVICE_CLASS = "serviceClass=org.service.query.QueryServiceInter";
@@ -42,8 +38,8 @@ public class CamelReleaseServerMain {
 		try {
 
 			// 内部WebService启动
-			QueryServiceServer queryServiceServer = new QueryServiceServer();
-			queryServiceServer.internalQueryService();
+			//QueryServiceServer queryServiceServer = new QueryServiceServer();
+			//queryServiceServer.internalQueryService();
 
 			// Camel 添加WebService 路由
 			context.addRoutes(new RouteBuilder() {
@@ -51,11 +47,11 @@ public class CamelReleaseServerMain {
 				@Override
 				public void configure() throws Exception {
 
-					CxfComponent cxfComponent = new CxfComponent(getContext());
-					CxfEndpoint serviceEndpoint = new CxfEndpoint(SERVICE_ADDRESS, cxfComponent);
-					serviceEndpoint.setServiceClass(QueryServiceInter.class);
+					//CxfComponent cxfComponent = new CxfComponent(getContext());
+					//CxfEndpoint serviceEndpoint = new CxfEndpoint(SERVICE_ADDRESS, cxfComponent);
+					//serviceEndpoint.setServiceClass(QueryServiceInter.class);
 
-					from(ROUTER_ENDPOINT_URI).to("log:CamelReleaseServerMain?showExchangeId=true").to(serviceEndpoint);
+					from(ROUTER_ENDPOINT_URI).to("log:CamelReleaseServerMain?showExchangeId=true");//.to(serviceEndpoint);
 
 				}
 			});

@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/01-ApacheCamel-HelloWorld/pom.xml" />
         <option value="$PROJECT_DIR$/12-ApahceCamel-SpringDemo/pom.xml" />
         <option value="$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/05-ApacheCamel-CXF-WebService-Client2/pom.xml" />
       </list>
     </option>
   </component>

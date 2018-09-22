@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/03-ApacheCamel-FTP/03-ApacheCamel-FTP.iml" filepath="$PROJECT_DIR$/03-ApacheCamel-FTP/03-ApacheCamel-FTP.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-ApacheCamel-CXF-WebService/04-ApacheCamel-CXF-WebService.iml" filepath="$PROJECT_DIR$/04-ApacheCamel-CXF-WebService/04-ApacheCamel-CXF-WebService.iml" />
       <module fileurl="file://$PROJECT_DIR$/05-ApacheCamel-CXF-WebService/05-ApacheCamel-CXF-WebService.iml" filepath="$PROJECT_DIR$/05-ApacheCamel-CXF-WebService/05-ApacheCamel-CXF-WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-ApacheCamel-CXF-WebService-Client2/05-ApacheCamel-CXF-WebService-Client2.iml" filepath="$PROJECT_DIR$/05-ApacheCamel-CXF-WebService-Client2/05-ApacheCamel-CXF-WebService-Client2.iml" />
       <module fileurl="file://$PROJECT_DIR$/06-ApacheCamel-JMS-ActiveMQ/06-ApacheCamel-JMS-ActiveMQ.iml" filepath="$PROJECT_DIR$/06-ApacheCamel-JMS-ActiveMQ/06-ApacheCamel-JMS-ActiveMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-ApacheCamel-JMS-ActiveMQ/07-ApacheCamel-JMS-ActiveMQ.iml" filepath="$PROJECT_DIR$/07-ApacheCamel-JMS-ActiveMQ/07-ApacheCamel-JMS-ActiveMQ.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-ApacheCamel-Jetty/08-ApacheCamel-Jetty.iml" filepath="$PROJECT_DIR$/08-ApacheCamel-Jetty/08-ApacheCamel-Jetty.iml" />
