@@ -1,4 +1,4 @@
-# ApacheCamelDemo
+# Apache Camel Demo
 
 Apache Camel Demo (learning sample Demo)<br>
 
