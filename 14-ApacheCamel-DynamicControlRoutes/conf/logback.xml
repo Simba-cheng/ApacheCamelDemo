@@ -19,7 +19,7 @@
             <FileNamePattern>${LOG_HOME}/logger.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
             <!--日志文件保留天数-->
             <MaxHistory>30</MaxHistory>
-            <maxFileSize>1MB</maxFileSize>
+            <maxFileSize>25MB</maxFileSize>
             <totalSizeCap>200MB</totalSizeCap>
         </rollingPolicy>
 

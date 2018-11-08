@@ -19,7 +19,7 @@
     </properties>
 
     <dependencies>
-        
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -126,7 +126,7 @@
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
-                     
+
                 <!--Maven指定JDK、编译版本-->
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -137,7 +137,7 @@
                         <target>1.8</target>
                     </configuration>
                 </plugin>
-                     
+
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
                     <version>3.0.0</version>

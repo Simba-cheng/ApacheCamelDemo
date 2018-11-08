@@ -13,7 +13,7 @@ public class PersonDTO {
     /**
      * 是否开启slave路由
      * <p>
-     * 0-关闭，1-开启
+     * 0-关闭，1-开启，2-暂停
      */
     private String slaveFlag;
 

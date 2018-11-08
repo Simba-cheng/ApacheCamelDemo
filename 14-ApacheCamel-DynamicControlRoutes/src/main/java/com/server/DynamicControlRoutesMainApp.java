@@ -1,6 +1,10 @@
 package com.server;
 
 import com.server.conf.LogBackConfigLoader;
+import com.server.routes.master.MasterHttpRoute;
+import com.server.routes.slave.SlaveHttpRoute;
+import org.apache.camel.CamelContext;
+import org.apache.camel.impl.DefaultCamelContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

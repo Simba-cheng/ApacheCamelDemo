@@ -1,9 +1,16 @@
-package com.server.routes.slaveroute;
+package com.server.routes.slave;
 
+
+import org.apache.camel.*;
 import org.apache.camel.builder.RouteBuilder;
+import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.io.InputStream;
 
 /**
- * 工作路由-Http
+ * Slave工作路由-Http
  *
  * @author CYX
  * @date 2018/11/7 14:03
@@ -16,7 +23,7 @@ public class SlaveHttpRoute extends RouteBuilder {
     public void configure() throws Exception {
 
         /**
-         * 第一个路由（普通写法，不设置任何配置）
+         * 第一个路由（普通写法，不增加任何配置）
          */
         from("jetty:http://127.0.0.1:8282/test-route-control").process(new Processor() {
             @Override

@@ -1,6 +1,6 @@
 package com.server;
 
-import com.alibaba.fastjson.JSONObject;
+
 import com.server.dto.PersonDTO;
 import com.server.util.CommonUtils;
 
@@ -8,18 +8,25 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * @author
+ * @author CYX
  */
 public class TestClient {
 
     public static void main(String[] args) {
-        URL url = null;
-        HttpURLConnection http = null;
-        try {
-            url = new URL("http://127.0.0.1:8282/test-route-control");
 
-            singleCall00(url);
-            //singleCall(url);
+        try {
+
+            //启动路由
+            //startRoute();
+
+            //停止路由
+            stopRoute();
+
+            //暂停路由
+            //suspendRoute();
+
+            //测试其他路由
+            //testOtherRoutes();
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -27,63 +34,112 @@ public class TestClient {
     }
 
     /**
-     * 单次调用
+     * 启动路由
      */
-    private static void singleCall00(URL url) throws Exception {
+    private static void startRoute() throws Exception {
 
-        HttpURLConnection http = null;
         System.out.println("http post start !!!");
         Long startTime = System.currentTimeMillis();
-        http = (HttpURLConnection) url.openConnection();
 
-        String param = null;
-        // ************************************************************
-        //JSONObject requestJson = new JSONObject();
-        //requestJson.put("serviceFlag", "1");
-        //requestJson.put("desc", "123456");
-        //param = requestJson.toString();
-        // ************************************************************
+        URL url = new URL("http://127.0.0.1:8282/masterRoute");
+        HttpURLConnection http = (HttpURLConnection) url.openConnection();
 
         PersonDTO personDTO = new PersonDTO();
         personDTO.setName("CYX");
-        param = CommonUtils.toJSONStr(personDTO);
+        personDTO.setId("320265551212584512");
+        personDTO.setAge("32");
+        personDTO.setSlaveFlag("1");
+        String param = CommonUtils.toJSONStr(personDTO);
 
+        System.out.println("发送消息 : " + param);
+
+        String result = HttpClient.doPost(param, 30000000, http);
+
+        System.out.println("调用时间 : " + (System.currentTimeMillis() - startTime) + "ms");
+        System.out.println("返回数据 : " + result);
+    }
+
+    /**
+     * 停止路由
+     */
+    private static void stopRoute() throws Exception {
+
+        System.out.println("http post start !!!");
+        Long startTime = System.currentTimeMillis();
+
+        URL url = new URL("http://127.0.0.1:8282/masterRoute");
+        HttpURLConnection http = (HttpURLConnection) url.openConnection();
+
+        PersonDTO personDTO = new PersonDTO();
+        personDTO.setName("CYX");
+        personDTO.setId("320265551212584512");
+        personDTO.setAge("32");
+        personDTO.setSlaveFlag("0");
+        String param = CommonUtils.toJSONStr(personDTO);
+
+        System.out.println("发送消息 : " + param);
+
+        String result = HttpClient.doPost(param, 30000000, http);
+
+        System.out.println("调用时间 : " + (System.currentTimeMillis() - startTime) + "ms");
+        System.out.println("返回数据 : " + result);
+
+    }
+
+    /**
+     * 暂停路由
+     */
+    private static void suspendRoute() throws Exception {
+
+        System.out.println("http post start !!!");
+        Long startTime = System.currentTimeMillis();
+
+        URL url = new URL("http://127.0.0.1:8282/masterRoute");
+        HttpURLConnection http = (HttpURLConnection) url.openConnection();
+
+        PersonDTO personDTO = new PersonDTO();
+        personDTO.setName("CYX");
+        personDTO.setId("320265551212584512");
+        personDTO.setAge("32");
+        personDTO.setSlaveFlag("2");
+        String param = CommonUtils.toJSONStr(personDTO);
+
+        System.out.println("发送消息 : " + param);
+
+        String result = HttpClient.doPost(param, 30000000, http);
+
+        System.out.println("调用时间 : " + (System.currentTimeMillis() - startTime) + "ms");
+        System.out.println("返回数据 : " + result);
+
+    }
+
+    /**
+     * 测试其他路由
+     */
+    private static void testOtherRoutes() throws Exception {
+
+        System.out.println("http post start !!!");
+        Long startTime = System.currentTimeMillis();
+
+        //URL url = new URL("http://127.0.0.1:8282/test-route-control");
+        //URL url = new URL("http://127.0.0.1:8282/test-route-contro2");
+
+        //如果该路由并未启动，是无法调用的。
+        URL url = new URL("http://127.0.0.1:8282/test-route-contro3");
+
+        HttpURLConnection http = (HttpURLConnection) url.openConnection();
+
+        PersonDTO personDTO = new PersonDTO();
+        personDTO.setName("CYX");
+        personDTO.setId("320265551212584512");
+        personDTO.setAge("32");
+        personDTO.setSlaveFlag("1");
+        String param = CommonUtils.toJSONStr(personDTO);
 
         System.out.println("发送消息 : " + param);
         String result = HttpClient.doPost(param, 30000000, http);
         System.out.println("调用时间 : " + (System.currentTimeMillis() - startTime) + "ms");
         System.out.println("返回数据 : " + result);
-        Thread.sleep(500);
-
-
-    }
-
-    /**
-     * 单次调用
-     */
-    private static void singleCall(URL url) throws Exception {
-
-        HttpURLConnection http = null;
-        System.out.println("http post start !!!");
-        Long startTime = System.currentTimeMillis();
-        http = (HttpURLConnection) url.openConnection();
-
-        // ************************************************************
-        JSONObject requestJson = new JSONObject();
-        requestJson.put("serviceFlag", "1");
-        requestJson.put("desc", "123456");
-        // ************************************************************
-
-
-        StringBuffer sb = new StringBuffer();
-        sb.append(requestJson.toString());
-        System.out.println("发送消息 : " + sb.toString());
-        String result = HttpClient.doPost(sb.toString(), 30000000, http);
-        System.out.println("调用时间 : " + (System.currentTimeMillis() - startTime) + "ms");
-        System.out.println("返回数据 : " + result);
-        Thread.sleep(500);
-
-
     }
 
 }

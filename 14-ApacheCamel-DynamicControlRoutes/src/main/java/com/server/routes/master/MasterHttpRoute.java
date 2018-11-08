@@ -1,10 +1,22 @@
-package com.server.routes.masterroute;
+package com.server.routes.master;
 
+import com.server.DynamicControlRoutesMainApp;
+import com.server.dto.PersonDTO;
+import com.server.util.CommonUtils;
+import org.apache.camel.CamelContext;
+import org.apache.camel.Exchange;
+import org.apache.camel.ExchangePattern;
+import org.apache.camel.Message;
+import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
+import org.apache.commons.io.IOUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.io.InputStream;
 
 /**
- * master路由
+ * master路由-用来控制Slave路由的启动和停止
  *
  * @author CYX
  * @date 2018/11/7 15:26
@@ -35,15 +47,27 @@ public class MasterHttpRoute extends RouteBuilder {
 
                 if ("0".equals(personDTO.getSlaveFlag())) {
 
-                    camelContext.stopRoute("test-route-control-03");
+                    //停止'test-route-control-03'路由
 
-                    LOGGER.info("===== stop routeID:test-route-control-03 =====");
+                    camelContext.stopRoute("test-route-control-03");
+                    LOGGER.info("===== 停止 routeID:test-route-control-03 =====");
 
                 } else if ("1".equals(personDTO.getSlaveFlag())) {
 
-                    camelContext.startRoute("test-route-control-03");
+                    //启动'test-route-control-03'路由
 
-                    LOGGER.info("===== start routeID:test-route-control-03 =====");
+                    camelContext.startRoute("test-route-control-03");
+                    LOGGER.info("===== 启动 routeID:test-route-control-03 =====");
+
+                } else if ("2".equals(personDTO.getSlaveFlag())) {
+
+                    //暂停'test-route-control-03'路由
+
+                    camelContext.suspendRoute("test-route-control-03");
+                    LOGGER.info("===== 暂停 routeID:test-route-control-03 =====");
+
+                    //设置暂停时间
+                    //camelContext.suspendRoute("",3600, TimeUnit.SECONDS);
                 }
 
                 if (exchange.getPattern() == ExchangePattern.InOut) {
@@ -54,4 +78,5 @@ public class MasterHttpRoute extends RouteBuilder {
         });
 
     }
+
 }
