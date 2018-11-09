@@ -1,4 +1,4 @@
-# 动态控制Apache Camel路由
+# 动态控制Apache Camel路由 & Dynamically control Apache Camel routing
 
 在了解动态控制 Apache Camel 路由之前，首先要了解两个细节，这有助于更好地使用、管理路由。
 
