@@ -8,6 +8,7 @@
 * Apache Camel - Jetty组件
 * Apache Camel - Timer组件
 * Apache Camel - JDBC组件
+* Apache Camel - Dynamic Control Route(动态控制)
 * Camel 各种路由...
 
 学习期间，参考的PDF资料，都上传了，需要的童鞋请自取：
@@ -28,6 +29,7 @@ Included in the project :
 * Apache Camel - Jetty component
 * Apache Camel - Timer component
 * Apache Camel - JDBC component
+* Apache Camel - Dynamic Control Route
 * Apache Camel - Message Routing
 
 Reference book : 
