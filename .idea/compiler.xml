@@ -1,118 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Annotation profile for 09-ApacheCamel-Timer" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="09-ApacheCamel-Timer" />
-      </profile>
-      <profile default="false" name="Annotation profile for 02-ApacheCamelServer" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="02-ApacheCamelServer" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="01-ApacheCamel-HelloWorld" />
+        <module name="02-ApacheCamelServer" />
+        <module name="03-ApacheCamel-FTP" />
+        <module name="04-ApacheCamel-CXF-WebService" />
+        <module name="05-ApacheCamel-CXF-WebService" />
         <module name="05-ApacheCamel-CXF-WebService-Client2" />
+        <module name="06-ApacheCamel-JMS-ActiveMQ" />
+        <module name="07-ApacheCamel-JMS-ActiveMQ" />
+        <module name="08-ApacheCamel-Jetty" />
+        <module name="09-ApacheCamel-Timer" />
+        <module name="10-ApacheCamel-JDBC" />
+        <module name="11-ApacheCamel-JDBC" />
         <module name="12-ApahceCamel-SpringDemo" />
         <module name="13-ApahceCamel-CXF-Demo" />
-      </profile>
-      <profile default="false" name="Annotation profile for 06-ApacheCamel-JMS-ActiveMQ" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="06-ApacheCamel-JMS-ActiveMQ" />
-      </profile>
-      <profile default="false" name="Annotation profile for 04-ApacheCamel-CXF-WebService" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="04-ApacheCamel-CXF-WebService" />
-      </profile>
-      <profile default="false" name="Annotation profile for 08-ApacheCamel-Jetty" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="08-ApacheCamel-Jetty" />
-      </profile>
-      <profile default="false" name="Annotation profile for 07-ApacheCamel-JMS-ActiveMQ" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="07-ApacheCamel-JMS-ActiveMQ" />
-      </profile>
-      <profile default="false" name="Annotation profile for 03-ApacheCamel-FTP" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="03-ApacheCamel-FTP" />
-      </profile>
-      <profile default="false" name="Annotation profile for 11-ApacheCamel-JDBC" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="11-ApacheCamel-JDBC" />
-      </profile>
-      <profile default="false" name="Annotation profile for 10-ApacheCamel-JDBC" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="10-ApacheCamel-JDBC" />
-      </profile>
-      <profile default="false" name="Annotation profile for 05-ApacheCamel-CXF-WebService" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="05-ApacheCamel-CXF-WebService" />
+        <module name="14-ApacheCamel-DynamicControlRoutes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="01-ApacheCamel-HelloWorld" target="1.8" />
+      <module name="01-ApacheCamel-HelloWorld" target="1.5" />
       <module name="02-ApacheCamelServer" target="1.8" />
       <module name="03-ApacheCamel-FTP" target="1.8" />
       <module name="04-ApacheCamel-CXF-WebService" target="1.8" />
       <module name="05-ApacheCamel-CXF-WebService" target="1.8" />
-      <module name="05-ApacheCamel-CXF-WebService-Client2" target="1.8" />
+      <module name="05-ApacheCamel-CXF-WebService-Client2" target="1.7" />
       <module name="06-ApacheCamel-JMS-ActiveMQ" target="1.8" />
       <module name="07-ApacheCamel-JMS-ActiveMQ" target="1.8" />
       <module name="08-ApacheCamel-Jetty" target="1.8" />
       <module name="09-ApacheCamel-Timer" target="1.8" />
       <module name="10-ApacheCamel-JDBC" target="1.8" />
       <module name="11-ApacheCamel-JDBC" target="1.8" />
-      <module name="12-ApahceCamel-SpringDemo" target="1.8" />
-      <module name="13-ApahceCamel-CXF-Demo" target="1.8" />
+      <module name="12-ApahceCamel-SpringDemo" target="1.7" />
+      <module name="13-ApahceCamel-CXF-Demo" target="1.7" />
+      <module name="14-ApacheCamel-DynamicControlRoutes" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

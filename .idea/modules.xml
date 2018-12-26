@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/11-ApacheCamel-JDBC/11-ApacheCamel-JDBC.iml" filepath="$PROJECT_DIR$/11-ApacheCamel-JDBC/11-ApacheCamel-JDBC.iml" />
       <module fileurl="file://$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" filepath="$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/13-ApahceCamel-CXF-Demo.iml" filepath="$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/13-ApahceCamel-CXF-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes/14-ApacheCamel-DynamicControlRoutes.iml" filepath="$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes/14-ApacheCamel-DynamicControlRoutes.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Apache Camel Demo.iml" filepath="$PROJECT_DIR$/.idea/Apache Camel Demo.iml" />
     </modules>
   </component>
