@@ -8,6 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
+ * Apache Camel With CXF-JAXRS(Code First)
+ * <p>
+ * https://github.com/apache/camel/tree/master/examples/camel-example-cxf
+ *
  * @author CYX
  */
 public class CamelWithCxfServerMain {
