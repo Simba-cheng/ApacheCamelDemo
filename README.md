@@ -3,7 +3,7 @@
 
 该项目中包含
 * Apache Camel - FTP组件
-* Apache Camel - CXF组件
+* Apache Camel - CXF组件(Code First and WSDL File First)
 * Apache Camel - JMS/ActiveMQ组件
 * Apache Camel - Jetty组件
 * Apache Camel - Timer组件
@@ -24,7 +24,7 @@ Apache Camel Blog：https://blog.csdn.net/column/details/19378.html
 
 Included in the project :
 * Apache Camel - FTP component
-* Apache Camel - CXF component
+* Apache Camel - CXF component(Code First and WSDL File First)
 * Apache Camel - JMS/ActiveMQ components
 * Apache Camel - Jetty component
 * Apache Camel - Timer component
