@@ -22,6 +22,8 @@
 # Apache Camel Demo(Learning Sample Demo)
 Apache Camel Blog：https://blog.csdn.net/column/details/19378.html
 
+I accidentally uploaded some useless configuration files before, please clear them yourself.
+
 Included in the project :
 * Apache Camel - FTP component
 * Apache Camel - CXF component(Code First and WSDL File First)
