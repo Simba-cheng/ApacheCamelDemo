@@ -1,9 +1,11 @@
 # Apache Camel Demo (学习样例Demo)
 国内Apache Camel专栏：https://blog.csdn.net/column/details/19378.html
 
+之前不小心将一些无用的配置文件上传了，请自行清除
+
 该项目中包含
 * Apache Camel - FTP组件
-* Apache Camel - CXF组件
+* Apache Camel - CXF组件(Code First and WSDL File First)
 * Apache Camel - JMS/ActiveMQ组件
 * Apache Camel - Jetty组件
 * Apache Camel - Timer组件
@@ -22,9 +24,11 @@
 # Apache Camel Demo(Learning Sample Demo)
 Apache Camel Blog：https://blog.csdn.net/column/details/19378.html
 
+I accidentally uploaded some useless configuration files before, please clear them yourself.
+
 Included in the project :
 * Apache Camel - FTP component
-* Apache Camel - CXF component
+* Apache Camel - CXF component(Code First and WSDL File First)
 * Apache Camel - JMS/ActiveMQ components
 * Apache Camel - Jetty component
 * Apache Camel - Timer component
@@ -36,3 +40,5 @@ Reference book :
 * [Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)
 * [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)
 * [Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)
+
+Irregular update...
