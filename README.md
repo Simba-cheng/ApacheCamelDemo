@@ -1,6 +1,8 @@
 # Apache Camel Demo (学习样例Demo)
 国内Apache Camel专栏：https://blog.csdn.net/column/details/19378.html
 
+之前不小心将一些无用的配置文件上传了，请自行清除
+
 该项目中包含
 * Apache Camel - FTP组件
 * Apache Camel - CXF组件(Code First and WSDL File First)
