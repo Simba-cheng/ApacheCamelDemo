@@ -16,6 +16,9 @@
     <file url="file://$PROJECT_DIR$/12-ApahceCamel-SpringDemo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/13-ApahceCamel-CXF-Demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/15-ApacheCamel-CXF-Demo-Server(Code First)" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/16-ApacheCamel-CXF-Demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_16-ApacheCamel-CXF-Demo-Client" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

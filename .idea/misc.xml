@@ -18,6 +18,9 @@
         <option value="$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/pom.xml" />
         <option value="$PROJECT_DIR$/05-ApacheCamel-CXF-WebService-Client2/pom.xml" />
         <option value="$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes/pom.xml" />
+        <option value="$PROJECT_DIR$/15-ApacheCamel-CXF-Demo-Server(Code First)/pom.xml" />
+        <option value="$PROJECT_DIR$/16-ApacheCamel-CXF-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/_16-ApacheCamel-CXF-Demo-Client/pom.xml" />
       </list>
     </option>
   </component>

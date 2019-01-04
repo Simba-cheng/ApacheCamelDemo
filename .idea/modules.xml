@@ -17,6 +17,9 @@
       <module fileurl="file://$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" filepath="$PROJECT_DIR$/12-ApahceCamel-SpringDemo/12-ApahceCamel-SpringDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/13-ApahceCamel-CXF-Demo.iml" filepath="$PROJECT_DIR$/13-ApahceCamel-CXF-Demo/13-ApahceCamel-CXF-Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes/14-ApacheCamel-DynamicControlRoutes.iml" filepath="$PROJECT_DIR$/14-ApacheCamel-DynamicControlRoutes/14-ApacheCamel-DynamicControlRoutes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15-ApacheCamel-CXF-Demo-Server(Code First)/15-ApacheCamel-CXF-Demo-Server(Code First).iml" filepath="$PROJECT_DIR$/15-ApacheCamel-CXF-Demo-Server(Code First)/15-ApacheCamel-CXF-Demo-Server(Code First).iml" />
+      <module fileurl="file://$PROJECT_DIR$/16-ApacheCamel-CXF-Demo/16-ApacheCamel-CXF-Demo.iml" filepath="$PROJECT_DIR$/16-ApacheCamel-CXF-Demo/16-ApacheCamel-CXF-Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_16-ApacheCamel-CXF-Demo-Client/16-ApacheCamel-CXF-Demo-Client.iml" filepath="$PROJECT_DIR$/_16-ApacheCamel-CXF-Demo-Client/16-ApacheCamel-CXF-Demo-Client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Apache Camel Demo.iml" filepath="$PROJECT_DIR$/.idea/Apache Camel Demo.iml" />
     </modules>
   </component>

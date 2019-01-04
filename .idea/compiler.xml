@@ -21,6 +21,9 @@
         <module name="12-ApahceCamel-SpringDemo" />
         <module name="13-ApahceCamel-CXF-Demo" />
         <module name="14-ApacheCamel-DynamicControlRoutes" />
+        <module name="15-ApacheCamel-CXF-Demo-Server(Code First)" />
+        <module name="16-ApacheCamel-CXF-Demo" />
+        <module name="16-ApacheCamel-CXF-Demo-Client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -39,6 +42,9 @@
       <module name="12-ApahceCamel-SpringDemo" target="1.7" />
       <module name="13-ApahceCamel-CXF-Demo" target="1.7" />
       <module name="14-ApacheCamel-DynamicControlRoutes" target="1.8" />
+      <module name="15-ApacheCamel-CXF-Demo-Server(Code First)" target="1.7" />
+      <module name="16-ApacheCamel-CXF-Demo" target="1.8" />
+      <module name="16-ApacheCamel-CXF-Demo-Client" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
