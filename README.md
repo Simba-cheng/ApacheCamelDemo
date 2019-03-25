@@ -42,3 +42,9 @@ Reference book :
 * [Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)
 
 Irregular update...
+
+
+
+# Stargazers over time
+
+[![Stargazers over time](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo.svg)](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo)
