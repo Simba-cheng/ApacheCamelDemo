@@ -10,7 +10,7 @@
 
 
 	<properties>
-		<springframework>4.3.6.RELEASE</springframework>
+		<springframework>5.0.0.RELEASE</springframework>
 	</properties>
 
 
