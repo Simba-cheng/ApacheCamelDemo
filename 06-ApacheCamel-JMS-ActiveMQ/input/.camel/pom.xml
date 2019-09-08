@@ -85,7 +85,7 @@
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
-			<version>1.4.10</version>
+			<version>1.4.11</version>
 		</dependency>
 
 		<!-- activemq -->
