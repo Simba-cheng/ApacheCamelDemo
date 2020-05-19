@@ -36,6 +36,7 @@ public class CamelReleaseServiceMain {
 			server.start();
 
 			context.addRoutes(new RouteBuilder() {
+				@Override
 				public void configure() {
 
 					CxfComponent cxfComponent = new CxfComponent(getContext());
