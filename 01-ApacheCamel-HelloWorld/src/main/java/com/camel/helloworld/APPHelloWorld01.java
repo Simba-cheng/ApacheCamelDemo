@@ -8,7 +8,6 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.http.common.HttpMessage;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.model.ModelCamelContext;
-import org.apache.log4j.PropertyConfigurator;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -27,9 +26,6 @@ public class APPHelloWorld01 extends RouteBuilder {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-
-        PropertyConfigurator.configure("./conf/log4j.properties");
-        PropertyConfigurator.configureAndWatch("./conf/log4j.properties", 1000);
 
         // 这是camel上下文对象，整个路由的驱动全靠它了。
         ModelCamelContext camelContext = new DefaultCamelContext();
