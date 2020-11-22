@@ -18,7 +18,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
+			<version>4.13.1</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -89,11 +89,11 @@
 			<version>2.20.0</version>
 		</dependency>
 
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.15</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>log4j</groupId>-->
+<!--			<artifactId>log4j</artifactId>-->
+<!--			<version>1.2.15</version>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -139,34 +139,20 @@
 			<version>4.5.2</version>
 		</dependency>
 
-		<dependency>
-			<groupId>jdk.tools</groupId>
-			<artifactId>jdk.tools</artifactId>
-			<version>1.8</version>
-			<scope>system</scope>
-			<systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>jdk.tools</groupId>-->
+<!--			<artifactId>jdk.tools</artifactId>-->
+<!--			<version>1.8</version>-->
+<!--			<scope>system</scope>-->
+<!--			<systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>-->
+<!--		</dependency>-->
 
 		<!-- Logger -->
-		<dependency>
-			<groupId>log4j</groupId>
-			<artifactId>log4j</artifactId>
-			<version>1.2.15</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.sun.jmx</groupId>
-					<artifactId>jmxri</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>com.sun.jdmk</groupId>
-					<artifactId>jmxtools</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>javax.jms</groupId>
-					<artifactId>jms</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>log4j</groupId>-->
+<!--			<artifactId>log4j</artifactId>-->
+<!--			<version>1.2.15</version>-->
+<!--		</dependency>-->
 
 	</dependencies>
 
