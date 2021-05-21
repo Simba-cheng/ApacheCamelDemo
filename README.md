@@ -1,6 +1,6 @@
 # Apache Camel Demo
 
-Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
+Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html?spm=1001.2014.3001.5482
 
 之前不小心将一些无用的配置文件上传了，请自行清除
 
@@ -25,7 +25,7 @@ Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
 # Apache Camel Demo(Learning Sample Demo)
 
-Apache Camel Blog：https://blog.csdn.net/column/details/19378.html
+Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html?spm=1001.2014.3001.5482
 
 I accidentally uploaded some useless configuration files before, please clear them yourself.
 
