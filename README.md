@@ -50,6 +50,6 @@ Irregular update...
 
 # Stargazers over time
 
-[![star-history]](https://star-history.t9t.io/#Simba-cheng/ApacheCamelDemo)
+[star-history](https://star-history.t9t.io/#Simba-cheng/ApacheCamelDemo)
 
 [![Stargazers over time](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo.svg)](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo)
