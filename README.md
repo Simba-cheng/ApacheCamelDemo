@@ -48,9 +48,9 @@ Irregular update...
 
 # Code Tool
 
-![jprofiler_large](./image/jprofiler_large.png)
+![Java profiler](./image/jprofiler_large.png)
 
-[jprofiler](https://www.ej-technologies.com/products/jprofiler/overview.html)
+[Java profiler](https://www.ej-technologies.com/products/jprofiler/overview.html)
 
 # Stargazers over time
 
