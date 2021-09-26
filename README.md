@@ -54,4 +54,4 @@ Irregular update...
 
 # Stargazers over time
 
-[![Stargazers over time](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo.svg)](https://starcharts.herokuapp.com/Simba-cheng/ApacheCamelDemo)
+[![Stargazers over time](https://starchart.cc/Simba-cheng/ApacheCamelDemo.svg)](https://starchart.cc/Simba-cheng/ApacheCamelDemo)
