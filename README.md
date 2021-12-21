@@ -40,9 +40,9 @@ Included in the project :
 * Apache Camel - Message Routing
 
 Reference book : 
-* [Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)
-* [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)
-* [Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)
+* [Mastering Apache Camel](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Mastering%20Apache%20Camel.pdf)
+* [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US.pdf)
+* [Apache Camel Developer's Cookbook](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Apache%20Camel%20Developer's%20Cookbook.pdf)
 
 Irregular update...
 
