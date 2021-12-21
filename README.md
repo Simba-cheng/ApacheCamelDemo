@@ -1,6 +1,6 @@
 # Apache Camel Demo
 
-Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html?spm=1001.2014.3001.5482
+Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
 之前不小心将一些无用的配置文件上传了，请自行清除
 
@@ -16,16 +16,18 @@ Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html?spm=
 
 学习期间，参考的PDF资料，都上传了，需要的童鞋请自取：
 
-* [Mastering Apache Camel](https://download.csdn.net/download/simba_cheng/10580138)
-* [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://download.csdn.net/download/simba_cheng/10575845)
-* [Apache Camel Developer's Cookbook](https://download.csdn.net/download/simba_cheng/10574302)
+* [Mastering Apache Camel](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Mastering%20Apache%20Camel.pdf)
+
+* [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US.pdf)
+
+* [Apache Camel Developer's Cookbook](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Apache%20Camel%20Developer's%20Cookbook.pdf)
 
 后续不定期更新。
 
 
 # Apache Camel Demo(Learning Sample Demo)
 
-Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html?spm=1001.2014.3001.5482
+Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
 I accidentally uploaded some useless configuration files before, please clear them yourself.
 
@@ -40,9 +42,13 @@ Included in the project :
 * Apache Camel - Message Routing
 
 Reference book : 
+
 * [Mastering Apache Camel](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Mastering%20Apache%20Camel.pdf)
+
 * [Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Red_Hat_Fuse-7.0-Apache_Camel_Development_Guide-en-US.pdf)
+
 * [Apache Camel Developer's Cookbook](https://github.com/Simba-cheng/ApacheCamelDemo/blob/master/book/Apache%20Camel%20Developer's%20Cookbook.pdf)
+
 
 Irregular update...
 
