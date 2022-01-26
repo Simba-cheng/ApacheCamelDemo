@@ -1,5 +1,8 @@
 # Apache Camel Demo
 
+PS：
+各位学习、参考此Demo的朋友请注意，由于时间、兼容性问题，此项目中的jar版本很少变动，只会修复 dependabot 提醒的漏洞，如你要在生产环境使用，请使用最新的jar版本，并进行兼容性测试。
+
 Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
 之前不小心将一些无用的配置文件上传了，请自行清除
@@ -26,6 +29,9 @@ Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
 
 # Apache Camel Demo(Learning Sample Demo)
+
+PS:
+All of you who study and refer to this demo please note that due to time and compatibility issues, the jar versions in this project rarely change and will only fix the bugs that dependabot reminds us of. If you want to use it in a production environment, please use the latest jar version and conduct compatibility tests.
 
 Apache Camel Blog：https://blog.csdn.net/simba_cheng/category_9271875.html
 
